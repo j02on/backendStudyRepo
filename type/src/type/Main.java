@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+package type;
 
 public class Main {
     public static void main(String[] args) {
@@ -10,7 +10,7 @@ public class Main {
 //        System.out.println("a = " + a);
 //        System.out.println("b = " + b);
 //
-//        int[] arr1 = {1,2,3};
+//        int[] a2rr1 = {1,2,3};
 //        int[] arr2 = arr1;
 //        arr2[0] = 10;
 //
@@ -31,50 +31,6 @@ public class Main {
 //        System.out.println("num1 = " + num1);
 
 
-
-
-        A als = new A();
-
-        als.b();
-        als.a = 0;
-//        als.ba();
-        als.c();
-
-    }
-}
-
-class A {
-    Integer a = 0;
-    public Number b() {
-        a = 9;
-        return this.a;
-    }
-
-    private Number ba() {
-        a = 9;
-        return this.a;
-    }
-
-    protected Number c() {
-        a = 11;
-        return this.a;
-    }
-}
-
-interface a {
-    Integer a();
-    Number b();
-}
-
-class B implements a {
-    @Override
-    public Integer a() {
-        return 9;
-    }
-
-    @Override
-    public Number b() {
-        return 9;
     }
 }
 
